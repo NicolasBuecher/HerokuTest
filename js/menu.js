@@ -211,7 +211,7 @@ function initCardboard()
             Camera.controls.connect();                                                             // Initialisation
             Camera.controls.update();                                                              // Mise à jour
 
-            //App.renderer.domElement.addEventListener('click', fullscreen, false);                           // Passage en mode plein écran pour les mobiles
+            App.renderer.domElement.addEventListener('click', fullscreen, false);                           // Passage en mode plein écran pour les mobiles
 
             window.removeEventListener('deviceorientation', setOrientationControls, true);  // Suppression de l'événement
 
@@ -274,4 +274,19 @@ function render2() {
 
     Camera.effect.render( App.scene, Camera.camera );
     Camera.controls.update(App.clock.getDelta());
+}
+
+/* Fonction permettant le passage en mode plein écran */
+
+function fullscreen()
+{
+
+    if (screenfull.enabled)
+    {
+        screenfull.request(document.body);
+    }
+    else
+    {
+        alert("Impossible de passer en mode plein écran.");
+    }
 }
