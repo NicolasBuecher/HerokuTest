@@ -97,7 +97,7 @@ function onWindowResize() {
     App.renderer.setSize( App.width, App.height );
     if ( App.currentDisplay == App.DisplayType.CARDBOARD )
     {
-        App.renderer.setSize( App.width, App.height );
+        Camera.effect.setSize( App.width, App.height );
     }
     //App.colorPickingRenderer.setSize(App.width, App.height);
 
