@@ -37,8 +37,8 @@ function initSimpleView()
         if ( App.currentDisplay !== App.DisplayType.UNKNOWN )
         {
             cancelAnimationFrame(App.requestId);
-            document.body.removeChild( App.renderer.domElement );
-            document.body.removeChild( Gui.stats.domElement );
+            App.container.removeChild( App.renderer.domElement );
+            App.container.removeChild( Gui.stats.domElement );
             //document.getElementById('colorPickingTexture').removeChild(App.colorPickingRenderer.domElement);
             Gui.gui.destroy();
             Camera.fpControls = undefined;
@@ -97,8 +97,8 @@ function initMultiView()
 
         if (App.currentDisplay !== App.DisplayType.UNKNOWN) {
             cancelAnimationFrame(App.requestId);
-            document.body.removeChild( App.renderer.domElement );
-            document.body.removeChild( Gui.stats.domElement );
+            App.container.removeChild( App.renderer.domElement );
+            App.container.removeChild( Gui.stats.domElement );
             //document.getElementById('colorPickingTexture').removeChild(App.colorPickingRenderer.domElement);
             Gui.gui.destroy();
             Camera.fpControls = undefined;
@@ -164,10 +164,11 @@ function initCardboard()
 
         if (App.currentDisplay !== App.DisplayType.UNKNOWN) {
             cancelAnimationFrame(App.requestId);
-            document.body.removeChild( App.renderer.domElement );
-            document.body.removeChild( Gui.stats.domElement );
+            App.container.removeChild( App.renderer.domElement );
+            App.container.removeChild( Gui.stats.domElement );
             //document.getElementById('colorPickingTexture').removeChild(App.colorPickingRenderer.domElement);
             Gui.gui.destroy();
+            Camera.fpControls = undefined;
             Camera.fpControls = undefined;
             Camera.controls = undefined;
         }
@@ -283,7 +284,7 @@ function fullscreen()
 
     if (screenfull.enabled)
     {
-        screenfull.request(document.body);
+        screenfull.request(App.container);
     }
     else
     {

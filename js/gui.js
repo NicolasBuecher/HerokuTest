@@ -19,7 +19,7 @@ function setupGUI(){
     Gui.stats.domElement.style.position = 'absolute';
     Gui.stats.domElement.style.left = '0px';
     Gui.stats.domElement.style.top = '0px';
-    document.body.appendChild( Gui.stats.domElement );
+    App.container.appendChild( Gui.stats.domElement );
 
     //Using dat-gui to give the user some tools to work with
     Gui.gui = new dat.GUI();
