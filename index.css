@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+}
+
+canvas {
+    width: 100%; height: 100%;
+}
+
+body {
+    overflow:hidden;
+    cursor: crosshair;
+}
+
+progress {
+    position:fixed;
+    width:20%;
+    height:10px;
+    left:40%;
+    bottom:60px;
+}
+
+#loader {
+    color:white;
+    position: fixed;
+    left: calc(50% - 132px);
+}
+
+#tools {
+    position: fixed;
+    width: 110px;
+    bottom: 10px;
+    right: 10px;
+}
+
+#colorPickingTexture {
+    position : fixed;
+    width: 10%;
+    height: 10%;
+    right: 10px;
+    bottom: 100px;
+}
+
+#debugInfo {
+    position: fixed;
+    left: 10px;
+    bottom : 10px;
+    color: white;
+    background : black;
+}
+
+#info_intersected {
+    position: fixed;
+    background: black;
+    color: white;
+    border: blue 2px solid;
+    border-radius: 2px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#info_intersected:hover {
+    cursor: crosshair;
+}
+
+#info_selected {
+    position: fixed;
+    background: black;
+    color: white;
+    border: green 2px solid;
+    border-radius: 2px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#info_selected:hover {
+    cursor: crosshair;
+}
+
+/* Style du menu (choix du type d'affichage) */
+
+#blocker {
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0,0,0,0.5);
+
+    font-family: Arial, sans-serif;
+
+    z-index: 100;
+
+}
+
+#instructions {
+
+    width: 100%;
+    height: 100%;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.choices {
+
+    display: inline-block;
+    margin: 20px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition-duration: .5s;
+
+}
+
+.choices:hover {
+    font-size: 30px;
+}
