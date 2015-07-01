@@ -59,6 +59,11 @@ function initSimpleView()
         setupcamera();
         setupGUI();
 
+        if (App.autoLoadData)
+        {
+            loadBinaryFiles(App.startFiles);
+        }
+
         /* Activation des contrôles */
 
         App.controlsEnabled = true;
@@ -113,6 +118,11 @@ function initMultiView()
         setupScene();
         setupcamera();
         setupGUI();
+
+        if (App.autoLoadData)
+        {
+            loadBinaryFiles(App.startFiles);
+        }
 
         /* Activation des contrôles */
 
@@ -175,6 +185,11 @@ function initCardboard()
         setupScene();
         setupcamera();
         setupGUI();
+
+        if (App.autoLoadData)
+        {
+            loadBinaryFiles(App.startFiles);
+        }
 
         /* Initialisation de l'effet stéréo */
 

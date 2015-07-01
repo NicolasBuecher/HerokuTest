@@ -283,7 +283,6 @@ function setStaticShaderMode(){
 
 document.getElementById('blocker').style.display = 'none';
 document.getElementById('timeline').addEventListener('click', function() { document.getElementById('blocker').style.display = 'initial'; App.controlsEnabled = false; }, false);
-document.getElementById('progressBar').addEventListener('click', function() { document.getElementById('blocker').style.display = 'initial'; App.controlsEnabled = false; }, false);
 
 App.addScript(name, script, true);
 App.addScript(name2, script2, false);
