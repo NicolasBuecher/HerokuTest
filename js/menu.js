@@ -284,7 +284,7 @@ function fullscreen()
 
     if (screenfull.enabled)
     {
-        screenfull.request(App.container);
+        screenfull.request(document.body);
     }
     else
     {
