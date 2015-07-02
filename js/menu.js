@@ -291,6 +291,7 @@ function fullscreen()
 
     if (screenfull.enabled)
     {
+        alert("enabled");
         screenfull.request(document.body);
     }
     else
