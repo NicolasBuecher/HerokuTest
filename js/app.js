@@ -38,6 +38,6 @@ App.CAMERAISFREE        = true;
 //App.FIRST               = true;
 
 
-App.autoLoadData = false;
+App.autoLoadData = true;
 
 App.container = document.getElementById('canvas');
