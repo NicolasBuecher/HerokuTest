@@ -37,8 +37,8 @@ function initSimpleView()
         if ( App.currentDisplay !== App.DisplayType.UNKNOWN )
         {
             cancelAnimationFrame(App.requestId);
-            App.container.removeChild( App.renderer.domElement );
-            App.container.removeChild( Gui.stats.domElement );
+            document.body.removeChild( App.renderer.domElement );
+            document.body.removeChild( Gui.stats.domElement );
             //document.getElementById('colorPickingTexture').removeChild(App.colorPickingRenderer.domElement);
             Gui.gui.destroy();
             Camera.fpControls = undefined;
@@ -97,8 +97,8 @@ function initMultiView()
 
         if (App.currentDisplay !== App.DisplayType.UNKNOWN) {
             cancelAnimationFrame(App.requestId);
-            App.container.removeChild( App.renderer.domElement );
-            App.container.removeChild( Gui.stats.domElement );
+            document.body.removeChild( App.renderer.domElement );
+            document.body.removeChild( Gui.stats.domElement );
             //document.getElementById('colorPickingTexture').removeChild(App.colorPickingRenderer.domElement);
             Gui.gui.destroy();
             Camera.fpControls = undefined;
@@ -164,8 +164,8 @@ function initCardboard()
 
         if (App.currentDisplay !== App.DisplayType.UNKNOWN) {
             cancelAnimationFrame(App.requestId);
-            App.container.removeChild( App.renderer.domElement );
-            App.container.removeChild( Gui.stats.domElement );
+            document.body.removeChild( App.renderer.domElement );
+            document.body.removeChild( Gui.stats.domElement );
             //document.getElementById('colorPickingTexture').removeChild(App.colorPickingRenderer.domElement);
             Gui.gui.destroy();
             Camera.fpControls = undefined;

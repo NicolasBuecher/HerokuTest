@@ -124,7 +124,7 @@ function setupScene()
     App.renderer = new THREE.WebGLRenderer({ stencil: false, precision: "lowp", premultipliedAlpha: false});//Let's make thing easier for the renderer
     //App.renderer.autoClear = false; //TODO fix perf issue on firefox, profiler is pointing on renderer.clear, but it doesn't make any sense.
     App.renderer.setSize(App.width, App.height);
-    App.container.appendChild( App.renderer.domElement );
+    document.body.appendChild( App.renderer.domElement );
 
     //CAMERA PROPERTIES
     //PerspectiveCamera(fov, aspect, near, far)

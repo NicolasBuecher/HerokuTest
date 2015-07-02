@@ -40,4 +40,4 @@ App.CAMERAISFREE        = true;
 
 App.autoLoadData = false;
 
-App.container = document.getElementById('canvas');
+//App.container = document.getElementById('canvas');
