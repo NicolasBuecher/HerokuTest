@@ -1,7 +1,393 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f6b6d69-afe6-480d-a8ae-0fcf072f80e5" name="Default" comment="" />
+    <list default="true" id="9f6b6d69-afe6-480d-a8ae-0fcf072f80e5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00002" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00003" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00004" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00005" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00006" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00007" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00008" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00009" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00010" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00011" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00012" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00013" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00014" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00015" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00016" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00017" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00018" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00019" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00020" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00021" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00022" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00023" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00024" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00025" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00026" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00027" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00028" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00029" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00030" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00031" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00032" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00033" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00034" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00035" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00036" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00037" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00038" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00039" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00040" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00041" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00042" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00043" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00044" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00045" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00046" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00047" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00048" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00049" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00050" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00051" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00052" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00053" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00054" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00055" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00056" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00057" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00058" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00059" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00060" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00061" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00062" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00063" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00064" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00065" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00066" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00067" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00068" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00069" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00070" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00071" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00072" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00073" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00074" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00075" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00076" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00077" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00078" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00079" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00080" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00081" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00082" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00083" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00084" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00085" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00086" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00087" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00088" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00089" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00090" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00091" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00092" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00093" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00094" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00095" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00096" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00097" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00098" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00099" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00100" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00101" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00102" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00103" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00104" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00105" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00106" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00107" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00108" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00109" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00110" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00111" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00112" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00113" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00114" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00115" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00116" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00117" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00118" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00119" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00120" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00121" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00122" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00123" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00124" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00125" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00126" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00127" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00002" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00003" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00004" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00005" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00006" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00007" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00008" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00009" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00010" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00011" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00012" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00013" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00014" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00015" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00016" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00017" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00018" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00019" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00020" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00021" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00022" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00023" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00024" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00025" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00026" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00027" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00028" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00029" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00030" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00031" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00032" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00033" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00034" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00035" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00036" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00037" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00038" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00039" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00040" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00041" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00042" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00043" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00044" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00045" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00046" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00047" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00048" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00049" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00050" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00051" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00052" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00053" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00054" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00055" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00056" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00057" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00058" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00059" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00060" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00061" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00062" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00063" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00064" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00065" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00066" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00067" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00068" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00069" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00070" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00071" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00072" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00073" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00074" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00075" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00076" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00077" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00078" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00079" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00080" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00081" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00082" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00083" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00084" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00085" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00086" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00087" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00088" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00089" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00090" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00091" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00092" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00093" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00094" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00095" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00096" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00097" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00098" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00099" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00100" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00101" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00102" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00103" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00104" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00105" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00106" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00107" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00108" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00109" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00110" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00111" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00112" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00113" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00114" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00115" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00116" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00117" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00118" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00119" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00120" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00121" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00122" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00123" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00124" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00125" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00126" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00127" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00000" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00002" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00003" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00004" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00005" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00006" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00007" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00008" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00009" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00010" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00011" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00012" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00013" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00014" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00015" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00016" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00017" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00018" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00019" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00020" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00021" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00022" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00023" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00024" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00025" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00026" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00027" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00028" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00029" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00030" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00031" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00032" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00033" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00034" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00035" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00036" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00037" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00038" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00039" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00040" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00041" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00042" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00043" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00044" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00045" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00046" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00047" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00048" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00049" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00050" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00051" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00052" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00053" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00054" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00055" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00056" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00057" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00058" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00059" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00060" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00061" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00062" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00063" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00064" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00065" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00066" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00067" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00068" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00069" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00070" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00071" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00072" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00073" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00074" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00075" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00076" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00077" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00078" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00079" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00080" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00081" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00082" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00083" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00084" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00085" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00086" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00087" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00088" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00089" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00090" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00091" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00092" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00093" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00094" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00095" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00096" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00097" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00098" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00099" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00100" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00101" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00102" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00103" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00104" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00105" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00106" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00107" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00108" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00109" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00110" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00111" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00112" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00113" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00114" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00115" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00116" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00117" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00118" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00119" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00120" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00121" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00122" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00123" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00124" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00125" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00126" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00127" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/event.js" afterPath="$PROJECT_DIR$/js/event.js" />
+    </list>
     <ignored path="HerokuTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +417,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="screenfull.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="screenfull.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/screenfull.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47368422">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/event.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="100" column="55" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -75,11 +473,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="menu.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="281" column="46" selection-start-line="281" selection-start-column="46" selection-end-line="281" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.08133971">
+              <caret line="259" column="33" selection-start-line="259" selection-start-column="33" selection-end-line="259" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -107,13 +505,13 @@
         <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/js/setup.js" />
         <option value="$PROJECT_DIR$/js/gui.js" />
-        <option value="$PROJECT_DIR$/js/event.js" />
         <option value="$PROJECT_DIR$/js/util.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/menu.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/event.js" />
       </list>
     </option>
   </component>
@@ -327,14 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="281" column="46" selection-start-line="281" selection-start-column="46" selection-end-line="281" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.8301888">
@@ -343,13 +733,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screenfull.js">
+    <entry file="file://$PROJECT_DIR$/js/event.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47368422">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="55" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screenfull.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08133971">
+          <caret line="259" column="33" selection-start-line="259" selection-start-column="33" selection-end-line="259" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
