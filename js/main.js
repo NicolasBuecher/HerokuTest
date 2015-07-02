@@ -309,12 +309,10 @@ App.addScript(name2, script2, false);
 
 if (isMobile.any())
 {
-    alert(navigator.userAgent);
     initCardboard();
 }
 else
 {
-    alert(navigator.userAgent);
     initFileReading();
 
     initSimpleView();

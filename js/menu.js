@@ -152,7 +152,7 @@ function initCardboard()
 
     if ( App.currentDisplay == App.DisplayType.CARDBOARD )
     {
-        alert("J'suis pas censé passer par là");
+
         /* Disparition du menu */
 
         document.getElementById('blocker').style.display = 'none';
@@ -167,8 +167,6 @@ function initCardboard()
         /* Interruption de la boucle de rendu en cours s'il y a lieu */
 
         if (App.currentDisplay !== App.DisplayType.UNKNOWN) {
-            alert("J'suis pas censé passer par là");
-
             cancelAnimationFrame(App.requestId);
             document.body.removeChild( App.renderer.domElement );
             document.body.removeChild( Gui.stats.domElement );
@@ -177,8 +175,6 @@ function initCardboard()
             Camera.fpControls = undefined;
             Camera.controls = undefined;
         }
-
-        alert("Etape une");
 
         /* Enregistrement du choix */
 
@@ -196,8 +192,6 @@ function initCardboard()
 
         initEventhandling();
 
-        alert("Etape deux");
-
         if (App.autoLoadData)
         {
             loadBinaryFiles(App.startFiles);
@@ -209,14 +203,10 @@ function initCardboard()
         Camera.effect.setSize(App.width, App.height);
         Camera.effect.eyeSeparation = 0.01;
 
-        alert("Etape trois");
-
         /* Initialisation du contrôle par orientation du mobile */
 
         function setOrientationControls(e)
         {
-
-            alert("Etape cinq");
 
             if (!e.alpha)
             {
@@ -229,15 +219,11 @@ function initCardboard()
 
             App.renderer.domElement.addEventListener('click', fullscreen, false);                           // Passage en mode plein écran pour les mobiles
 
-            alert("Etape six");
-
             window.removeEventListener('deviceorientation', setOrientationControls, true);  // Suppression de l'événement
 
         }
 
         window.addEventListener('deviceorientation', setOrientationControls, true);         // Mise en place des contrôles pour mobile si détection de mobile compatible
-
-        alert("Etape quatre");
 
         /* Activation des contrôles */
 
@@ -303,11 +289,8 @@ function render2() {
 function fullscreen()
 {
 
-    alert("Etape 7");
-
     if (screenfull.enabled)
     {
-        alert("enabled");
         screenfull.request(document.body);
     }
     else
