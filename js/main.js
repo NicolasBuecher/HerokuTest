@@ -313,6 +313,7 @@ if (isMobile.any())
 }
 else
 {
+    alert(navigator.userAgent);
     initFileReading();
 
     initSimpleView();
