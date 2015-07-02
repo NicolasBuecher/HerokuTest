@@ -169,7 +169,6 @@ function initCardboard()
             //document.getElementById('colorPickingTexture').removeChild(App.colorPickingRenderer.domElement);
             Gui.gui.destroy();
             Camera.fpControls = undefined;
-            Camera.fpControls = undefined;
             Camera.controls = undefined;
         }
 
@@ -277,6 +276,8 @@ function render2() {
     Camera.controls.update(App.clock.getDelta());
 }
 
+document.getElementById('timeline').addEventListener('click', function() { document.getElementById('blocker').style.display = 'initial'; App.controlsEnabled = false; }, false);
+
 /* Fonction permettant le passage en mode plein écran */
 
 function fullscreen()
@@ -313,6 +314,7 @@ function render3() {
             }else{
                 App.uniforms.t.value = 1.0;
                 computePositions();//Let's go back to static mode
+                enableMouseEventHandling();
                 App.PLAY = false;
             }
         }
