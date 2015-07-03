@@ -2,391 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f6b6d69-afe6-480d-a8ae-0fcf072f80e5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00002" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00003" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00004" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00005" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00006" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00007" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00008" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00009" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00010" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00011" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00012" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00013" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00014" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00015" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00016" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00017" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00018" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00019" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00020" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00021" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00022" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00023" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00024" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00025" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00026" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00027" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00028" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00029" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00030" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00031" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00032" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00033" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00034" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00035" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00036" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00037" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00038" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00039" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00040" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00041" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00042" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00043" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00044" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00045" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00046" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00047" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00048" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00049" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00050" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00051" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00052" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00053" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00054" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00055" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00056" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00057" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00058" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00059" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00060" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00061" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00062" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00063" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00064" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00065" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00066" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00067" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00068" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00069" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00070" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00071" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00072" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00073" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00074" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00075" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00076" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00077" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00078" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00079" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00080" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00081" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00082" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00083" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00084" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00085" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00086" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00087" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00088" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00089" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00090" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00091" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00092" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00093" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00094" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00095" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00096" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00097" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00098" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00099" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00100" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00101" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00102" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00103" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00104" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00105" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00106" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00107" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00108" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00109" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00110" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00111" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00112" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00113" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00114" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00115" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00116" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00117" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00118" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00119" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00120" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00121" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00122" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00123" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00124" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00125" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00126" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/part_end/part.00010.p00127" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00002" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00003" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00004" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00005" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00006" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00007" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00008" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00009" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00010" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00011" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00012" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00013" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00014" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00015" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00016" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00017" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00018" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00019" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00020" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00021" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00022" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00023" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00024" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00025" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00026" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00027" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00028" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00029" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00030" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00031" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00032" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00033" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00034" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00035" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00036" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00037" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00038" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00039" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00040" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00041" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00042" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00043" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00044" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00045" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00046" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00047" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00048" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00049" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00050" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00051" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00052" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00053" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00054" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00055" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00056" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00057" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00058" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00059" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00060" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00061" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00062" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00063" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00064" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00065" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00066" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00067" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00068" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00069" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00070" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00071" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00072" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00073" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00074" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00075" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00076" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00077" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00078" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00079" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00080" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00081" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00082" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00083" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00084" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00085" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00086" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00087" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00088" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00089" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00090" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00091" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00092" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00093" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00094" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00095" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00096" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00097" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00098" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00099" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00100" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00101" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00102" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00103" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00104" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00105" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00106" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00107" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00108" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00109" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00110" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00111" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00112" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00113" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00114" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00115" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00116" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00117" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00118" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00119" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00120" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00121" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00122" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00123" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00124" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00125" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00126" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_end/star.00010.p00127" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00002" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00003" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00004" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00005" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00006" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00007" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00008" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00009" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00010" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00011" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00012" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00013" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00014" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00015" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00016" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00017" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00018" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00019" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00020" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00021" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00022" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00023" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00024" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00025" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00026" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00027" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00028" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00029" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00030" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00031" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00032" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00033" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00034" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00035" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00036" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00037" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00038" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00039" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00040" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00041" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00042" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00043" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00044" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00045" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00046" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00047" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00048" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00049" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00050" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00051" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00052" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00053" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00054" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00055" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00056" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00057" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00058" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00059" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00060" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00061" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00062" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00063" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00064" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00065" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00066" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00067" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00068" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00069" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00070" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00071" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00072" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00073" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00074" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00075" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00076" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00077" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00078" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00079" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00080" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00081" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00082" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00083" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00084" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00085" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00086" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00087" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00088" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00089" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00090" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00091" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00092" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00093" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00094" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00095" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00096" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00097" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00098" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00099" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00100" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00101" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00102" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00103" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00104" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00105" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00106" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00107" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00108" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00109" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00110" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00111" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00112" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00113" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00114" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00115" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00116" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00117" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00118" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00119" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00120" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00121" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00122" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00123" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00124" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00125" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00126" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Deparis_data_binaire/star_start/star.00000.p00127" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/event.js" afterPath="$PROJECT_DIR$/js/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testCamera.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/testCamera.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HerokuTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -410,21 +29,33 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.8301888">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state vertical-scroll-proportion="-128.75">
+              <caret line="206" column="25" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="screenfull.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/screenfull.js">
+      <file leaf-file-name="testCamera.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCamera.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.75">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testCamera.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/testCamera.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -433,10 +64,20 @@
         <entry file="file://$PROJECT_DIR$/js/event.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="100" column="55" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
+              <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="101" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -445,17 +86,7 @@
         <entry file="file://$PROJECT_DIR$/js/util.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="37" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -465,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="310" column="1" selection-start-line="310" selection-start-column="1" selection-end-line="310" selection-end-column="1" />
+              <caret line="316" column="0" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -473,27 +104,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08133971">
-              <caret line="259" column="33" selection-start-line="259" selection-start-column="33" selection-end-line="259" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
+      <file leaf-file-name="setup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/setup.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camera.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/camera.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -507,11 +156,13 @@
         <option value="$PROJECT_DIR$/js/gui.js" />
         <option value="$PROJECT_DIR$/js/util.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/menu.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/event.js" />
+        <option value="$PROJECT_DIR$/testCamera.html" />
+        <option value="$PROJECT_DIR$/js/testCamera.js" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -525,7 +176,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="927" />
+    <option name="width" value="917" />
     <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -551,9 +202,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -603,12 +251,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -661,10 +313,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="927" height="1176" extended-state="4" />
+    <frame x="65" y="24" width="917" height="1176" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22006473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21919303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -691,55 +343,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="310" column="1" selection-start-line="310" selection-start-column="1" selection-end-line="310" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.8301888">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/event.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="55" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -753,10 +361,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="37" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="316" column="0" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08133971">
-          <caret line="259" column="33" selection-start-line="259" selection-start-column="33" selection-end-line="259" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/camera.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screenfull.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/camera.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="37" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="316" column="0" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-128.75">
+          <caret line="206" column="25" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCamera.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/testCamera.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
           <folding />
         </state>
       </provider>
