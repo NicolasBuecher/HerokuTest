@@ -33,6 +33,7 @@ function gotSources(sourceInfos) {
             console.log('Some other kind of source: ', sourceInfo);
         }
     }
+    start();
 }
 
 function successCallback(stream) {
@@ -75,5 +76,3 @@ function start()
 
     navigator.getUserMedia(constraints, successCallback, errorCallback);
 }
-
-start();
