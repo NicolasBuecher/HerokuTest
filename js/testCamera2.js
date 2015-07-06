@@ -71,7 +71,9 @@ function start()
         }
     };
 
-    constraints.video.optional.push([{sourceId: videos[1]}]);
+    alert(constraints.video.optional);
+    constraints.video.optional.push({sourceId: videos[1]});
+    alert(constraints.video.optional);
 
     alert("video[0] : " + videos[0]);
     alert("videos[1] : " + videos[1]);
