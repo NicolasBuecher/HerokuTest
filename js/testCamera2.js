@@ -28,7 +28,6 @@ function gotSources(sourceInfos) {
             console.log(sourceInfo.label + " + " + sourceInfo.id);
             videos[j] = sourceInfo.id;
             j++;
-            videos[j-1] == option.value ? alert("Correct") : alert("False");
         } else {
             console.log('Some other kind of source: ', sourceInfo);
         }
@@ -44,7 +43,7 @@ function successCallback(stream) {
 
 function errorCallback(error){
     console.log('navigator.getUserMedia error: ', error);
-    alert("HAHA");
+    alert("ERROR");
 }
 
 var videoElement = document.getElementById('video');
@@ -71,12 +70,12 @@ function start()
         }
     };
 
-    alert(constraints.video.optional);
     constraints.video.optional.push({sourceId: videos[1]});
-    alert(constraints.video.optional);
 
-    alert("video[0] : " + videos[0]);
-    alert("videos[1] : " + videos[1]);
+    for(var i = 0; i < videos.length; i++)
+    {
+        alert("camera numéro " + (i+1) + " OK");
+    }
 
     navigator.getUserMedia(constraints, successCallback, errorCallback);
 }
