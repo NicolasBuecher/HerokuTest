@@ -58,7 +58,7 @@ var constraints = {
         optional: [{sourceId: audioSource}]
     },
     video: {
-        optional: [{sourceId: videos[0]}]
+        optional: [{sourceId: videos[2]}]
     }
 };
 
