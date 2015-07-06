@@ -39,8 +39,7 @@ function successCallback(stream) {
     window.stream = stream; // make stream available to console
     videoElement.src = window.URL.createObjectURL(stream);
     videoElement.play();
-    var test = stream.getVideoTracks();
-    alert(test.toString());
+    alert(videoElement.src);
 }
 
 function errorCallback(error){
@@ -51,7 +50,6 @@ function errorCallback(error){
 var videoElement = document.getElementById('video');
 var audioSelect = document.getElementById('audioSource');
 var videoSelect = document.getElementById('videoSource');
-
 
 function start()
 {
