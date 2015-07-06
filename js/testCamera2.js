@@ -28,6 +28,7 @@ function gotSources(sourceInfos) {
             console.log(sourceInfo.label + " + " + sourceInfo.id);
             videos[j] = sourceInfo.id;
             j++;
+            alert(sourceInfo.label + " j = " + j);
         } else {
             console.log('Some other kind of source: ', sourceInfo);
         }
