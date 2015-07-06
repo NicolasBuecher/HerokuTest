@@ -28,6 +28,7 @@ function gotSources(sourceInfos) {
             console.log(sourceInfo.label + " + " + sourceInfo.id);
             videos[j] = sourceInfo.id;
             j++;
+            videos[j-1] == option.value ? alert("Correct") : alert("False");
         } else {
             console.log('Some other kind of source: ', sourceInfo);
         }
@@ -36,7 +37,6 @@ function gotSources(sourceInfos) {
 
 function successCallback(stream) {
     window.stream = stream; // make stream available to console
-    alert(stream);
     videoElement.src = window.URL.createObjectURL(stream);
     videoElement.play();
 }
@@ -63,7 +63,7 @@ var constraints = {
         optional: [{sourceId: audioSource}]
     },
     video: {
-        optional: [{sourceId: videos[0]}]
+        optional: [{sourceId: videos[1]}]
     }
 };
 
