@@ -38,7 +38,7 @@ function successCallback(stream) {
     window.stream = stream; // make stream available to console
     videoElement.src = window.URL.createObjectURL(stream);
     videoElement.play();
-    alert("OUI");
+    alert(videoElement);
 }
 
 function errorCallback(error){
