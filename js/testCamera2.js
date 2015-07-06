@@ -50,24 +50,30 @@ var videoElement = document.getElementById('video');
 var audioSelect = document.getElementById('audioSource');
 var videoSelect = document.getElementById('videoSource');
 
-if (!!window.stream) {
-    videoElement.src = null;
-    window.stream.stop();
+
+function start()
+{
+    if (!!window.stream) {
+        videoElement.src = null;
+        window.stream.stop();
+    }
+
+    var audioSource = audioSelect.value;
+    var videoSource = videoSelect.value;
+
+    var constraints = {
+        audio: {
+            optional: [{sourceId: audioSource}]
+        },
+        video: {
+            optional: [{sourceId: videos[0]}]
+        }
+    };
+
+    alert("video[0] : " + videos[0]);
+    alert("videos[1] : " + videos[1]);
+
+    navigator.getUserMedia(constraints, successCallback, errorCallback);
 }
 
-var audioSource = audioSelect.value;
-var videoSource = videoSelect.value;
-
-var constraints = {
-    audio: {
-        optional: [{sourceId: audioSource}]
-    },
-    video: {
-        optional: [{sourceId: videos[0]}]
-    }
-};
-
-alert("video[0] : " + videos[0]);
-alert("videos[1] : " + videos[1]);
-
-navigator.getUserMedia(constraints, successCallback, errorCallback);
+start();
