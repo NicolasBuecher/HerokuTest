@@ -63,8 +63,11 @@ var constraints = {
         optional: [{sourceId: audioSource}]
     },
     video: {
-        optional: [{sourceId: videos[1]}]
+        optional: [{sourceId: videos[0]}]
     }
 };
+
+alert("video[0] : " + videos[0]);
+alert("videos[1] : " + videos[1]);
 
 navigator.getUserMedia(constraints, successCallback, errorCallback);
