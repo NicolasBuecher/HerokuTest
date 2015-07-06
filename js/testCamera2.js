@@ -44,6 +44,7 @@ function successCallback(stream) {
 
 function errorCallback(error){
     console.log('navigator.getUserMedia error: ', error);
+    alert("HAHA");
 }
 
 var videoElement = document.getElementById('video');
