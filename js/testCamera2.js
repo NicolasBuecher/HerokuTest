@@ -70,11 +70,27 @@ function start()
         }
     };
 
-    constraints.video.optional.push({sourceId: videos[1]});
-
     for(var i = 0; i < videos.length; i++)
     {
         alert("camera numéro " + (i+1) + " OK");
+    }
+
+    switch ( videos.length )
+    {
+        case 0:
+            alert("Aucune caméra détectée");
+            break;
+        case 1:
+            constraints.video.optional.push({sourceId: videos[0]});
+            alert("Il s'agit certainement de ta webcam, non ?");
+            break;
+        case 2:
+            constraints.video.optional.push({sourceId: videos[1]});
+            alert("Au pif, ce doit être ta caméra externe !");
+            break;
+        default:
+            alert("Trop de choix, je ne sais que choisir !");
+            break;
     }
 
     navigator.getUserMedia(constraints, successCallback, errorCallback);
