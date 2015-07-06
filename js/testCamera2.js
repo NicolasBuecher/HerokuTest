@@ -10,7 +10,7 @@ if (typeof MediaStreamTrack === 'undefined'){
     MediaStreamTrack.getSources(gotSources);
 }
 
-//var videos = [];
+var videos = [];
 
 function gotSources(sourceInfos) {
     var j = 0;
@@ -26,8 +26,8 @@ function gotSources(sourceInfos) {
             option.text = sourceInfo.label || 'camera ' + (videoSelect.length + 1);
             videoSelect.appendChild(option);
             console.log(sourceInfo.label + " + " + sourceInfo.id);
-            //videos[j] = sourceInfo.id;
-            //j++;
+            videos[j] = sourceInfo.id;
+            j++;
         } else {
             console.log('Some other kind of source: ', sourceInfo);
         }
@@ -38,7 +38,7 @@ function successCallback(stream) {
     window.stream = stream; // make stream available to console
     videoElement.src = window.URL.createObjectURL(stream);
     videoElement.play();
-    alert(videoElement);
+    alert(stream);
 }
 
 function errorCallback(error){
@@ -58,7 +58,7 @@ var constraints = {
         optional: [{sourceId: audioSource}]
     },
     video: {
-        optional: [{sourceId: videoSource}]
+        optional: [{sourceId: videos[1]}]
     }
 };
 
