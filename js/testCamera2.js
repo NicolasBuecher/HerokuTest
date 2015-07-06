@@ -44,7 +44,7 @@ function errorCallback(error){
     console.log('navigator.getUserMedia error: ', error);
 }
 
-var videoElement = document.getElementsByName('video');
+var videoElement = document.getElementById('video');
 var audioSelect = document.getElementById('audioSource');
 var videoSelect = document.getElementById('videoSource');
 
