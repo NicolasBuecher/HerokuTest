@@ -67,7 +67,7 @@ function start()
             optional: [{sourceId: audioSource}]
         },
         video: {
-            optional: [{sourceId: videos[0]}]
+            optional: [{sourceId: videos[1]}]
         }
     };
 
