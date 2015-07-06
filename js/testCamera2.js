@@ -36,14 +36,13 @@ function gotSources(sourceInfos) {
 
 function successCallback(stream) {
     window.stream = stream; // make stream available to console
+    alert(stream);
     videoElement.src = window.URL.createObjectURL(stream);
     videoElement.play();
-    alert(stream);
 }
 
 function errorCallback(error){
     console.log('navigator.getUserMedia error: ', error);
-    alert("HAHA");
 }
 
 var videoElement = document.getElementById('video');
