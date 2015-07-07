@@ -61,7 +61,7 @@ function successCallback(stream) {
     window.stream = stream; // make stream available to console
     videoElement.src = window.URL.createObjectURL(stream);
     videoElement.play();
-    
+
     if (stream.getVideoTracks()[0])
         var videoDevice = stream.getVideoTracks()[0];
 
