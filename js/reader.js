@@ -363,7 +363,7 @@ function loadBinaryFiles(files)
 
 App.startFiles = [];
 
-for (var i = 0; i < 2; i++)
+for (var i = 0; i < 128; i++)
 {
     if (i < 10)
         App.startFiles[i] = "data/Deparis_data_binaire/part_start/part.00000.p0000" + i;
