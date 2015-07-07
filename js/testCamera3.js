@@ -58,19 +58,24 @@ function processFrame(e) {
 
 function successCallback(stream) {
 
+    window.stream = stream; // make stream available to console
+    videoElement.src = window.URL.createObjectURL(stream);
+    videoElement.play();
+    
     if (stream.getVideoTracks()[0])
         var videoDevice = stream.getVideoTracks()[0];
 
+    alert(videoDevice);
+
     var captureDevice = new ImageCapture(videoDevice);
+
+    alert(captureDevice);
 
     if (captureDevice) {
         captureDevice.onframe = processFrame;
         captureDevice.grabFrame();
     }
-    /*
-    window.stream = stream; // make stream available to console
-    videoElement.src = window.URL.createObjectURL(stream);
-    videoElement.play();*/
+
 }
 
 function errorCallback(error){
