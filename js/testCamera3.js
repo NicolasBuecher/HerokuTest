@@ -62,6 +62,8 @@ function successCallback(stream) {
     videoElement.src = window.URL.createObjectURL(stream);
     videoElement.play();
 
+    stream.getFrame();
+    
     if (stream.getVideoTracks()[0])
         var videoDevice = stream.getVideoTracks()[0];
 
