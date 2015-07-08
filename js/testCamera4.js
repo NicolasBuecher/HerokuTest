@@ -18,6 +18,12 @@ function successCallback(stream) {
     for (var i = 0; i < tab.length; i++)
     console.log("video " + i);
 
+    setTimeout(end, 6000);
+
+    function end()
+    {
+        videoElement.stop();
+    }
 }
 
 function errorCallback(error){
