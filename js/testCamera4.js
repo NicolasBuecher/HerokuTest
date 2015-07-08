@@ -13,6 +13,11 @@ function successCallback(stream) {
     videoElement.src = window.URL.createObjectURL(stream);
     videoElement.play();
 
+    var tab = stream.getVideoTracks();
+
+    for (var i = 0; i < tab.length; i++)
+    console.log("video " + i);
+
 }
 
 function errorCallback(error){
