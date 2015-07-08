@@ -1,11 +1,13 @@
 var videoElement = document.getElementById('video');
+var canvasElement = document.getElementById('canvas');
+var ctx = canvasElement.getContext('2d');
 
 navigator.getUserMedia  = navigator.getUserMedia ||
     navigator.webkitGetUserMedia ||
     navigator.mozGetUserMedia ||
     navigator.msGetUserMedia;
 
-if (typeof MediaStreamTrack.getSources(gotSources) === 'undefined')
+if (typeof MediaStreamTrack === 'undefined')
 {
     alert('This browser does not support MediaStreamTrack.\n\nTry Chrome Canary.');
 }
@@ -26,7 +28,7 @@ else
         }
     }
 
-    switch (videos.length) {
+    switch (videoSources.length) {
         case 0:
             alert("Aucune caméra détectée");
             break;
@@ -64,6 +66,16 @@ function start(videoId)
         window.stream = stream;
         videoElement.src = window.URL.createObjectURL(stream);
         videoElement.play();
+
+        videoElement.addEventListener('click', snapshot, false);
+
+        function snapshot() {
+            if (stream) {
+                ctx.drawImage(videoElement, 0, 0);
+                var image = ctx.getImageData(0,0,videoElement.videoWidth, videoElement.videoHeight);
+                console.log(image);
+            }
+        }
     }
 
     function onErrorCallback(error){
