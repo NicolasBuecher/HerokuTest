@@ -26,22 +26,22 @@ else
                 j++;
             }
         }
-    }
 
-    switch (videoSources.length) {
-        case 0:
-            alert("Aucune caméra détectée");
-            break;
-        case 1:
-            alert("Il s'agit certainement de ta webcam, non ?");
-            break;
-        case 2:
-            alert("Au pif, ce doit être ta caméra externe !");
-            start(videoSources[1]);
-            break;
-        default:
-            alert("Trop de choix, je ne sais que choisir !");
-            break;
+        switch (videoSources.length) {
+            case 0:
+                alert("Aucune caméra détectée");
+                break;
+            case 1:
+                alert("Il s'agit certainement de ta webcam, non ?");
+                break;
+            case 2:
+                alert("Au pif, ce doit être ta caméra externe !");
+                start(videoSources[1]);
+                break;
+            default:
+                alert("Trop de choix, je ne sais que choisir !");
+                break;
+        }
     }
 }
 
