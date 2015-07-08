@@ -55,7 +55,9 @@ function start(videoId)
 
     var constraints = {
         video: {
-            sourceId: videoId
+            optional: [{
+                sourceId: videoId
+            }]
         }
     };
 
