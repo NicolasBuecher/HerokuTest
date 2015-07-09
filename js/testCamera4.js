@@ -76,6 +76,13 @@ function start(videoId)
                 ctx.drawImage(videoElement, 0, 0);
                 var image = ctx.getImageData(0,0,videoElement.videoWidth, videoElement.videoHeight);
                 console.log(image);
+                for (var i = 0; i < image.data.length / 4; i++)
+                {
+                    console.log("R = " + image.data[i*4]);
+                    console.log("G = " + image.data[i*4+1]);
+                    console.log("B = " + image.data[i*4+2]);
+                    console.log("A = " + image.data[i*4+3]);
+                }
             }
         }
     }
