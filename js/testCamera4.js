@@ -75,7 +75,9 @@ function start(videoId)
             if (stream) {
                 ctx.drawImage(videoElement, 0, 0);
                 var image = ctx.getImageData(0,0,videoElement.videoWidth, videoElement.videoHeight);
-                
+
+                canvasElement.width = image.width;
+                canvasElement.height = image.height;
                 videoElement.style.display = 'none';
 
                 console.log("Largeur : " + image.width);
@@ -100,9 +102,6 @@ function start(videoId)
                 {
                     console.log("CLAIR !");
                 }
-
-                canvasElement.width = image.width;
-                canvasElement.height = image.height;
 
                 ctx.putImageData(image, 0, 0);
 
