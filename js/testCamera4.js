@@ -73,8 +73,8 @@ function start(videoId)
 
         function onPlay()
         {
-            canvasElement.style.width = videoElement.videoWidth;
-            canvasElement.style.height = videoElement.videoHeight;
+            canvasElement.style.width = videoElement.videoWidth.toString();
+            canvasElement.style.height = videoElement.videoHeight.toString();
 
             canvasElement.width = videoElement.videoWidth;
             canvasElement.height = videoElement.videoHeight;
