@@ -105,7 +105,7 @@ function start(videoId)
                     var green = image.data[x*4 + y*4*image.width + 1];
                     var blue = image.data[x*4 + y*4*image.width + 2];
                     var alpha = image.data[x*4 + y*4*image.width + 3];
-                    console.log("R = " + red + " G = " + green + " B = " + blue + " A = " + alpha);
+                    console.log("[" + (x*4 + y*4*image.width) + "] R = " + red + " G = " + green + " B = " + blue + " A = " + alpha);
 
                     nbPoints++;
 
