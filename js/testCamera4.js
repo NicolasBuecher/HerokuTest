@@ -80,6 +80,296 @@ function start(videoId)
                 console.log(image.width*image.height);
                 console.log(image.width*image.height*4);
                 console.log(image.data.length);
+
+                Bresenham(0, 0, image.width, image.height);
+
+                function tracerPixel(x, y)
+                {
+                    console.log("x = " + x + " et y = " + y);
+                    var red = image.data[x*4 + y*4*image.width];
+                    var green = image.data[x*4 + y*4*image.width + 1];
+                    var blue = image.data[x*4 + y*4*image.width + 2];
+                    var alpha = image.data[x*4 + y*4*image.width + 3];
+                    console.log("R = " + red + " G = " + green + " B = " + blue + " A = " + alpha);
+                }
+
+                function Bresenham(x1, y1, x2, y2)
+                {
+                    var dx, dy;
+
+                    dx = x2 - x1;
+
+                    if ( dx !== 0 )
+                    {
+                        if ( dx > 0 )
+                        {
+                            dy = y2 - y1;
+
+                            if ( dy !== 0 )
+                            {
+                                if ( dy > 0 )           // Vecteur oblique dans le 1er quadran
+                                {
+                                    if ( dx >= dy )         // Vecteur diagonal ou oblique proche de l'horizontale dans le 1er octant
+                                    {
+                                        var e = dx;         // e est positif
+                                        dx = e * 2;
+                                        dy = dy * 2;
+
+                                        while ( true )          // Déplacements horizontaux
+                                        {
+                                            tracerPixel( x1, y1 );
+                                            x1++;
+
+                                            if ( x1 === x2 )
+                                            {
+                                                break;
+                                            }
+
+                                            e = e - dy;
+
+                                            if (e < 0)
+                                            {
+                                                y1++;           // Déplacement diagonal
+                                                e = e + dx;
+                                            }
+                                        }
+                                    }
+                                    else            // vecteur oblique proche de la verticale, dans le 2nd octant
+                                    {
+                                        var e = dy;         // e est positif
+                                        dy = e * 2;
+                                        dx = dx * 2;
+
+                                        while ( true )          // déplacements verticaux
+                                        {
+                                            tracerPixel( x1, y1 );
+                                            y1++;
+
+                                            if ( y1 === y2 )
+                                            {
+                                                break;
+                                            }
+
+                                            e = e - dx;
+
+                                            if ( e < 0 )
+                                            {
+                                                x1++;           // déplacement diagonal
+                                                e = e + dy;
+                                            }
+                                        }
+                                    }
+                                }
+                                else            // dy < 0 (et dx > 0) // vecteur oblique dans le 4e cadran
+                                {
+                                    if ( dx >= -dy )            // vecteur diagonal ou oblique proche de l’horizontale, dans le 8e octant
+                                    {
+                                        var e = dx;         // e est positif
+                                        dx = e * 2;
+                                        dy = dy * 2;
+
+                                        while ( true )          // déplacements horizontaux
+                                        {
+                                            tracerPixel( x1, y1 );
+                                            x1++;
+
+                                            if ( x1 === x2 )
+                                            {
+                                                break;
+                                            }
+
+                                            e = e + dy;
+
+                                            if ( e < 0 )
+                                            {
+                                                y1--;           // déplacement diagonal
+                                                e = e + dx;
+                                            }
+                                        }
+                                    }
+                                    else            // vecteur oblique proche de la verticale, dans le 7e octant
+                                    {
+                                        var e = dy;         // e est négatif
+                                        dy = e * 2;
+                                        dx = dx * 2;
+
+                                        while ( true )          // déplacements verticaux
+                                        {
+                                            tracerPixel( x1, y1 );
+                                            y1--;
+
+                                            if ( y1 === y2 )
+                                            {
+                                                break;
+                                            }
+
+                                            e = e + dx;
+
+                                            if ( e > 0 )
+                                            {
+                                                x1++;           // déplacement diagonal
+                                                e = e + dy;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            else            // dy = 0 (et dx > 0) // vecteur horizontal vers la droite
+                            {
+                                do
+                                {
+                                    tracerPixel( x1, y1 );
+                                    x1++;
+                                } while ( x1 !== x2 );
+                            }
+                        }
+                        else            // dx < 0
+                        {
+                            dy = y2 - y1;
+                            if ( dy !== 0 )
+                            {
+                                if ( dy > 0 )           // vecteur oblique dans le 2nd quadran
+                                {
+                                    if ( -dx >= dy )            // vecteur diagonal ou oblique proche de l’horizontale, dans le 4e octant
+                                    {
+                                        var e = dx;         // e est négatif
+                                        dx = e * 2;
+                                        dy = dy * 2;
+
+                                        while ( true )          // déplacements horizontaux
+                                        {
+                                            tracerPixel( x1, y1 );
+                                            x1--;
+
+                                            if ( x1 === x2 )
+                                            {
+                                                break;
+                                            }
+
+                                            e = e + dy;
+
+                                            if ( e >= 0 )
+                                            {
+                                                y1++;           // déplacement diagonal
+                                                e = e + dx;
+                                            }
+                                        }
+                                    }
+                                    else            // vecteur oblique proche de la verticale, dans le 3e octant
+                                    {
+                                        var e = dy;         // e est positif
+                                        dy = e * 2;
+                                        dx = dx * 2;
+
+                                        while ( true )          // déplacements verticaux
+                                        {
+                                            tracerPixel( x1, y1 );
+                                            y1++;
+
+                                            if ( y1 === y2 )
+                                            {
+                                                break;
+                                            }
+
+                                            e = e + dx;
+
+                                            if ( e <= 0 )
+                                            {
+                                                x1--;           // déplacement diagonal
+                                                e = e + dy;
+                                            }
+                                        }
+                                    }
+                                }
+                                else            // dy < 0 (et dx < 0) // vecteur oblique dans le 3e cadran
+                                {
+                                    if ( dx <= dy )         // vecteur diagonal ou oblique proche de l’horizontale, dans le 5e octant
+                                    {
+                                        var e = dx;         // e est négatif
+                                        dx = e * 2;
+                                        dy = dy * 2;
+
+                                        while ( true )          // déplacements horizontaux
+                                        {
+                                            tracerPixel( x1, y1 );
+                                            x1--;
+
+                                            if ( x1 === x2 )
+                                            {
+                                                break;
+                                            }
+
+                                            e = e - dy;
+
+                                            if ( e >= 0 )
+                                            {
+                                                y1--;           // déplacement diagonal
+                                                e = e + dx;
+                                            }
+                                        }
+                                    }
+                                    else            // vecteur oblique proche de la verticale, dans le 6e octant
+                                    {
+                                        var e = dy;         // e est négatif
+                                        dy = e * 2;
+                                        dx = dx * 2;
+
+                                        while ( true )          // déplacements verticaux
+                                        {
+                                            tracerPixel( x1, y1 );
+                                            y1--;
+
+                                            if ( y1 === y2 )
+                                            {
+                                                break;
+                                            }
+
+                                            e = e - dx;
+
+                                            if ( e >= 0 )
+                                            {
+                                                x1--;           // déplacement diagonal
+                                                e = e + dy;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            else            // dy = 0 (et dx < 0) // vecteur horizontal vers la gauche
+                            {
+                                do {
+                                    tracerPixel( x1, y1 );
+                                    x1--;
+                                } while ( x1 !== x2 );
+                            }
+                        }
+                    }
+                    else            // dx = 0
+                    {
+                        dy = y2 - y1;
+
+                        if ( dy !== 0 )
+                        {
+                            if ( dy > 0 )           // vecteur vertical croissant
+                            {
+                                do {
+                                    tracerPixel( x1, y1 );
+                                    y1++;
+                                } while ( y1 !== y2);
+                            }
+                            else            // dy < 0 (et dx = 0) // vecteur vertical décroissant
+                            {
+                                do {
+                                    tracerPixel( x1, y1 );
+                                    y1--;
+                                } while ( y1 !== y2 );
+                            }
+                        }
+                    }
+
+                    // tracerPixel( x2, y2 );
+                }
+
             }
         }
     }
@@ -89,8 +379,4 @@ function start(videoId)
         alert("ERROR");
     }
 }
-
-
-
-
 
