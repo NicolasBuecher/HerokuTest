@@ -69,7 +69,7 @@ function start(videoId)
         videoElement.src = window.URL.createObjectURL(stream);
         videoElement.play();
 
-        videoElement.addEventListener('play', onPlay, false);
+        //videoElement.addEventListener('play', onPlay, false);
 
         function onPlay()
         {
@@ -81,7 +81,7 @@ function start(videoId)
 
             videoElement.addEventListener('click', snapshot, false);
         }
-        
+
         function snapshot() {
             if (stream) {
 
