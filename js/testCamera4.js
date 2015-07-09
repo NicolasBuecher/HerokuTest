@@ -102,6 +102,9 @@ function start(videoId)
                     console.log("CLAIR !");
                 }
 
+                canvasElement.width = image.width;
+                canvasElement.height = image.height;
+
                 ctx.putImageData(image, 0, 0);
 
                 canvasElement.style.display = 'block';
