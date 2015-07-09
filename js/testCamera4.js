@@ -69,14 +69,19 @@ function start(videoId)
         videoElement.src = window.URL.createObjectURL(stream);
         videoElement.play();
 
-        canvasElement.width = videoElement.clientWidth;
-        canvasElement.height = videoElement.clientHeight;
+        videoElement.addEventListener('play', onPlay, false);
 
-        console.log("width : " + canvasElement.width);
-        console.log("height : " + canvasElement.height);
+        function onPlay()
+        {
+            canvasElement.width = videoElement.clientWidth;
+            canvasElement.height = videoElement.clientHeight;
 
-        videoElement.addEventListener('click', snapshot, false);
+            console.log("width : " + canvasElement.width);
+            console.log("height : " + canvasElement.height);
 
+            videoElement.addEventListener('click', snapshot, false);
+        }
+        
         function snapshot() {
             if (stream) {
 
