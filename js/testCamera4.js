@@ -69,8 +69,8 @@ function start(videoId)
         videoElement.src = window.URL.createObjectURL(stream);
         videoElement.play();
 
-        canvasElement.width = videoElement.videoWidth;
-        canvasElement.height = videoElement.videoHeight;
+        canvasElement.width = videoElement.clientWidth;
+        canvasElement.height = videoElement.clientHeight;
 
         console.log("width : " + canvasElement.width);
         console.log("height : " + canvasElement.height);
