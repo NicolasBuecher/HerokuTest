@@ -75,16 +75,19 @@ function start(videoId)
             if (stream) {
                 ctx.drawImage(videoElement, 0, 0);
                 var image = ctx.getImageData(0,0,videoElement.videoWidth, videoElement.videoHeight);
-                console.log(image.width);
-                console.log(image.height);
-                console.log(image.width*image.height);
-                console.log(image.width*image.height*4);
-                console.log(image.data.length);
+                console.log("Largeur : " + image.width);
+                console.log("Hauteur : " + image.height);
+                console.log("LxH : " + image.width*image.height);
+                console.log("*4 : " + image.width*image.height*4);
+                console.log("Taille buffer : " + image.data.length);
 
                 var nbPoints = 0;
                 var nbDarkPoints = 0;
 
                 Bresenham(0, 0, image.width, image.height);
+
+                console.log("Nombre de points : " + nbPoints);
+                console.log("Nombre de points sombres : " + nbDarkPoints);
 
                 if (nbDarkPoints > nbPoints / 2)
                 {
@@ -106,7 +109,7 @@ function start(videoId)
 
                     nbPoints++;
 
-                    if (red <= 128 && green <= 128 && blue <= 128 )
+                    if (red <= 32 && green <= 32 && blue <= 32 )
                     {
                         nbDarkPoints++;
                     }
