@@ -78,6 +78,10 @@ function start(videoId)
 
                 console.log("videoWidth : " + videoElement.videoWidth);
                 console.log("videoHeight : " + videoElement.videoHeight);
+                console.log("streamWidth : " + stream.width);
+                console.log("streamHeight : " + stream.height);
+                console.log("videoElementWidth : " + videoElement.width);
+                console.log("videoElementHeight : " + videoElement.height);
 
                 canvasElement.width = image.width;
                 canvasElement.height = image.height;
