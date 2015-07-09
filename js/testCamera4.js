@@ -75,8 +75,7 @@ function start(videoId)
             if (stream) {
                 ctx.drawImage(videoElement, 0, 0);
                 var image = ctx.getImageData(0,0,videoElement.videoWidth, videoElement.videoHeight);
-
-                videoElement.pause();
+                
                 videoElement.style.display = 'none';
 
                 console.log("Largeur : " + image.width);
