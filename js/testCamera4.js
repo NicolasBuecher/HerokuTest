@@ -73,25 +73,25 @@ function start(videoId)
 
         function onPlay()
         {
+            canvasElement.clientWidth = videoElement.videoWidth;
+            canvasElement.clientHeight = videoElement.videoHeight;
+
             canvasElement.width = videoElement.videoWidth;
             canvasElement.height = videoElement.videoHeight;
 
             console.log("width : " + canvasElement.width);
             console.log("height : " + canvasElement.height);
 
-            //videoElement.addEventListener('click', snapshot, false);
+            videoElement.addEventListener('click', snapshot, false);
         }
 
         function snapshot() {
             if (stream) {
 
-                videoElement.style.display = 'none';
-                console.log("width : " + canvasElement.width);
-                console.log("height : " + canvasElement.height);
                 ctx.drawImage(videoElement, 0, 0);
                 canvasElement.style.display = 'block';
-                console.log("width : " + canvasElement.width);
-                console.log("height : " + canvasElement.height);
+                videoElement.style.display = 'none';
+
 
                 /*
                 var image = ctx.getImageData(0,0,videoElement.videoWidth, videoElement.videoHeight);
