@@ -69,6 +69,9 @@ function start(videoId)
         videoElement.src = window.URL.createObjectURL(stream);
         videoElement.play();
 
+        canvasElement.width = videoElement.videoWidth;
+        canvasElement.height = videoElement.videoHeight;
+
         videoElement.addEventListener('click', snapshot, false);
 
         function snapshot() {
@@ -77,7 +80,7 @@ function start(videoId)
                 videoElement.style.display = 'none';
                 ctx.drawImage(videoElement, 0, 0);
                 canvasElement.style.display = 'block';
-                
+
                 /*
                 var image = ctx.getImageData(0,0,videoElement.videoWidth, videoElement.videoHeight);
 
