@@ -81,7 +81,19 @@ function start(videoId)
                 console.log(image.width*image.height*4);
                 console.log(image.data.length);
 
+                var nbPoints = 0;
+                var nbDarkPoints = 0;
+
                 Bresenham(0, 0, image.width, image.height);
+
+                if (nbDarkPoints > nbPoints / 2)
+                {
+                    console.log("SOMBRE !");
+                }
+                else
+                {
+                    console.log("CLAIR !");
+                }
 
                 function tracerPixel(x, y)
                 {
@@ -91,6 +103,13 @@ function start(videoId)
                     var blue = image.data[x*4 + y*4*image.width + 2];
                     var alpha = image.data[x*4 + y*4*image.width + 3];
                     console.log("R = " + red + " G = " + green + " B = " + blue + " A = " + alpha);
+
+                    nbPoints++;
+
+                    if (red <= 128 && green <= 128 && blue <= 128 )
+                    {
+                        nbDarkPoints++;
+                    }
                 }
 
                 function Bresenham(x1, y1, x2, y2)
