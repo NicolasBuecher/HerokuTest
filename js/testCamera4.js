@@ -73,7 +73,12 @@ function start(videoId)
 
         function snapshot() {
             if (stream) {
+
+                videoElement.style.display = 'none';
                 ctx.drawImage(videoElement, 0, 0);
+                canvasElement.style.display = 'block';
+                
+                /*
                 var image = ctx.getImageData(0,0,videoElement.videoWidth, videoElement.videoHeight);
 
                 console.log("videoWidth : " + videoElement.videoWidth);
@@ -86,7 +91,7 @@ function start(videoId)
                 canvasElement.width = image.width;
                 canvasElement.height = image.height;
 
-                videoElement.style.display = 'none';
+
 
                 console.log("Largeur : " + image.width);
                 console.log("Hauteur : " + image.height);
@@ -114,7 +119,7 @@ function start(videoId)
                 ctx.putImageData(image, 0, 0);
 
                 canvasElement.style.display = 'block';
-
+*/
                 function tracerPixel(x, y)
                 {
                     console.log("x = " + x + " et y = " + y);
