@@ -76,7 +76,8 @@ function start(videoId)
                 ctx.drawImage(videoElement, 0, 0);
                 var image = ctx.getImageData(0,0,videoElement.videoWidth, videoElement.videoHeight);
 
-                videoElement.stop();
+                videoElement.pause();
+                videoElement.style.display = 'none';
 
                 console.log("Largeur : " + image.width);
                 console.log("Hauteur : " + image.height);
