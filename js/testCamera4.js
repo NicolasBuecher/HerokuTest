@@ -75,6 +75,9 @@ function start(videoId)
             if (stream) {
                 ctx.drawImage(videoElement, 0, 0);
                 var image = ctx.getImageData(0,0,videoElement.videoWidth, videoElement.videoHeight);
+
+                videoElement.stop();
+
                 console.log("Largeur : " + image.width);
                 console.log("Hauteur : " + image.height);
                 console.log("LxH : " + image.width*image.height);
@@ -98,6 +101,8 @@ function start(videoId)
                     console.log("CLAIR !");
                 }
 
+                canvasElement.style.display = 'block';
+
                 function tracerPixel(x, y)
                 {
                     console.log("x = " + x + " et y = " + y);
@@ -106,6 +111,11 @@ function start(videoId)
                     var blue = image.data[x*4 + y*4*image.width + 2];
                     var alpha = image.data[x*4 + y*4*image.width + 3];
                     console.log("[" + (x*4 + y*4*image.width) + "] R = " + red + " G = " + green + " B = " + blue + " A = " + alpha);
+
+                    image.data[x*4 + y*4*image.width] = 255;
+                    image.data[x*4 + y*4*image.width + 1] = 0;
+                    image.data[x*4 + y*4*image.width + 2] = 0;
+                    image.data[x*4 + y*4*image.width + 3] = 255;
 
                     nbPoints++;
 
