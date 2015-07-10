@@ -102,7 +102,7 @@ function start(videoId)
                 console.log("Nombre de points : " + nbPoints);
                 console.log("Nombre de points sombres : " + nbDarkPoints);
 
-                if (nbDarkPoints > nbPoints / 2)
+                if (nbDarkPoints > nbPoints - nbPoints / 10)
                 {
                     console.log("SOMBRE !");
                 }
