@@ -91,7 +91,7 @@ function start(videoId)
                 canvasElement.height = videoElement.videoHeight;
 
                 ctx.drawImage(videoElement, 0, 0);
-                //videoElement.style.display = 'none';
+                videoElement.style.display = 'none';
 
                 var image = ctx.getImageData(0,0, canvasElement.width, canvasElement.height);
 
@@ -126,12 +126,16 @@ function start(videoId)
                     console.log("CLAIR !");
                 }*/
 
-                //ctx.putImageData(image, 0, 0);
+                ctx.putImageData(image, 0, 0);
 
-                //canvasElement.style.display = 'block';
+                canvasElement.style.display = 'block';
 
                 function CentreVideo()
                 {
+                    console.log("R = " + (image.data[3 * (image.width / 2) + 3 * (image.height / 2) * image.width]));
+                    console.log("G = " + (image.data[3 * (image.width / 2) + 1 + 3 * (image.height / 2) * image.width]));
+                    console.log("B = " + (image.data[3 * (image.width / 2) + 2 + 3 * (image.height / 2) * image.width]));
+
                     for (var i = 3 * (image.width / 2); i < 5 * (image.width / 2); i+=4)
                     {
                         for (var j = 3 * (image.height / 2) * image.width; j < 5 * (image.height / 2) * image.width; j+=480)
@@ -151,11 +155,6 @@ function start(videoId)
                             image.data[i+j+2] = 0;
                         }
                     }
-
-                    console.log("R = " + (image.data[3 * (image.width / 2) + 3 * (image.height / 2) * image.width]));
-                    console.log("G = " + (image.data[3 * (image.width / 2) + 1 + 3 * (image.height / 2) * image.width]));
-                    console.log("B = " + (image.data[3 * (image.width / 2) + 2 + 3 * (image.height / 2) * image.width]));
-
                 }
 
                 function tracerPixel(x, y)
