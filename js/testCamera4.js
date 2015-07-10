@@ -73,15 +73,15 @@ function start(videoId)
 
         function onPlay()
         {
+            /* Définition dynamique de la largeur et de la hauteur visuelles du canvas */
+
             canvasElement.style.width = videoElement.videoWidth.toString() + "px";
             canvasElement.style.height = videoElement.videoHeight.toString() + "px";
 
+            /* Définition dynamique du nombre de pixels de la zone de dessin du canvas */
+
             canvasElement.width = videoElement.videoWidth;
             canvasElement.height = videoElement.videoHeight;
-
-            console.log("width : " + canvasElement.width);
-            console.log("height : " + canvasElement.height);
-            console.log("stringW : " + videoElement.videoWidth.toString());
 
             videoElement.addEventListener('click', snapshot, false);
         }
@@ -90,28 +90,9 @@ function start(videoId)
             if (stream) {
 
                 ctx.drawImage(videoElement, 0, 0);
-                canvasElement.style.display = 'block';
                 videoElement.style.display = 'none';
-                /*
+
                 var image = ctx.getImageData(0,0, canvasElement.width, canvasElement.height);
-
-                console.log("videoWidth : " + videoElement.videoWidth);
-                console.log("videoHeight : " + videoElement.videoHeight);
-                console.log("streamWidth : " + stream.width);
-                console.log("streamHeight : " + stream.height);
-                console.log("videoElementWidth : " + videoElement.width);
-                console.log("videoElementHeight : " + videoElement.height);
-
-                canvasElement.width = image.width;
-                canvasElement.height = image.height;
-
-
-
-                console.log("Largeur : " + image.width);
-                console.log("Hauteur : " + image.height);
-                console.log("LxH : " + image.width*image.height);
-                console.log("*4 : " + image.width*image.height*4);
-                console.log("Taille buffer : " + image.data.length);
 
                 var nbPoints = 0;
                 var nbDarkPoints = 0;
@@ -133,7 +114,7 @@ function start(videoId)
                 ctx.putImageData(image, 0, 0);
 
                 canvasElement.style.display = 'block';
-*/
+
                 function tracerPixel(x, y)
                 {
                     console.log("x = " + x + " et y = " + y);
@@ -143,17 +124,17 @@ function start(videoId)
                     var alpha = image.data[x*4 + y*4*image.width + 3];
                     console.log("[" + (x*4 + y*4*image.width) + "] R = " + red + " G = " + green + " B = " + blue + " A = " + alpha);
 
-                    image.data[x*4 + y*4*image.width] = 255;
-                    image.data[x*4 + y*4*image.width + 1] = 0;
-                    image.data[x*4 + y*4*image.width + 2] = 0;
-                    image.data[x*4 + y*4*image.width + 3] = 255;
-
                     nbPoints++;
 
                     if (red <= 32 && green <= 32 && blue <= 32 )
                     {
                         nbDarkPoints++;
                     }
+
+                    image.data[x*4 + y*4*image.width] = 255;
+                    image.data[x*4 + y*4*image.width + 1] = 0;
+                    image.data[x*4 + y*4*image.width + 2] = 0;
+                    image.data[x*4 + y*4*image.width + 3] = 255;
                 }
 
                 function Bresenham(x1, y1, x2, y2)
