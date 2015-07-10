@@ -88,9 +88,9 @@ function start(videoId)
 
                 canvasElement.width = videoElement.videoWidth;
                 canvasElement.height = videoElement.videoHeight;
-                
+
                 ctx.drawImage(videoElement, 0, 0);
-                videoElement.style.display = 'none';
+                //videoElement.style.display = 'none';
 
                 var image = ctx.getImageData(0,0, canvasElement.width, canvasElement.height);
 
@@ -111,18 +111,18 @@ function start(videoId)
                     console.log("CLAIR !");
                 }
 
-                ctx.putImageData(image, 0, 0);
+                //ctx.putImageData(image, 0, 0);
 
-                canvasElement.style.display = 'block';
+                //canvasElement.style.display = 'block';
 
                 function tracerPixel(x, y)
                 {
-                    console.log("x = " + x + " et y = " + y);
+                    //console.log("x = " + x + " et y = " + y);
                     var red = image.data[x*4 + y*4*image.width];
                     var green = image.data[x*4 + y*4*image.width + 1];
                     var blue = image.data[x*4 + y*4*image.width + 2];
                     var alpha = image.data[x*4 + y*4*image.width + 3];
-                    console.log("[" + (x*4 + y*4*image.width) + "] R = " + red + " G = " + green + " B = " + blue + " A = " + alpha);
+                    //console.log("[" + (x*4 + y*4*image.width) + "] R = " + red + " G = " + green + " B = " + blue + " A = " + alpha);
 
                     nbPoints++;
 
