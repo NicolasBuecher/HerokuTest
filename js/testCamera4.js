@@ -132,9 +132,6 @@ function start(videoId)
 
                 function CentreVideo()
                 {
-                    var stepX = 3 * (image.width / 8);
-                    var stepY = 3 * (image.height / 8);
-
                     for (var i = 3 * (image.width / 2); i < 5 * (image.width / 2); i+=4)
                     {
                         for (var j = 3 * (image.height / 2) * image.width; j < 5 * (image.height / 2) * image.width; j+=480)
@@ -144,14 +141,21 @@ function start(videoId)
                             var green = image.data[i+j+1];
                             var blue = image.data[i+j+2];
 
-                            console.log("R = " + red + " G = " + green + " B = " + blue)
-
                             if (red > 192 && green < 64 && blue < 64)
                             {
                                 nbRedPoints++;
                             }
+
+                            image.data[i+j] = 255;
+                            image.data[i+j+1] = 0;
+                            image.data[i+j+2] = 0;
                         }
                     }
+
+                    console.log("R = " + (image.data[3 * (image.width / 2) + 3 * (image.height / 2) * image.width]));
+                    console.log("G = " + (image.data[3 * (image.width / 2) + 1 + 3 * (image.height / 2) * image.width]));
+                    console.log("B = " + (image.data[3 * (image.width / 2) + 2 + 3 * (image.height / 2) * image.width]));
+
                 }
 
                 function tracerPixel(x, y)
