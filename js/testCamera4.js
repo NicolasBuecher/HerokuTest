@@ -73,7 +73,8 @@ function start(videoId)
 
         function onPlay()
         {
-            videoElement.addEventListener('click', snapshot, false);
+            //videoElement.addEventListener('click', snapshot, false);
+            setTimeout(snapshot, 2);
         }
 
         function snapshot() {
@@ -96,11 +97,21 @@ function start(videoId)
 
                 var nbPoints = 0;
                 var nbDarkPoints = 0;
+                var nbRedPoints = 0;
 
-                Bresenham(0, 0, image.width, image.height);
+                CentreVideo();
+                //Bresenham(0, 0, image.width, image.height);
 
                 console.log("Nombre de points : " + nbPoints);
-                console.log("Nombre de points sombres : " + nbDarkPoints);
+                console.log("Nombre de points rouges : " + nbRedPoints);
+
+                if ( nbRedPoints > nbPoints - nbRedPoints)
+                {
+                    console.log("ROUGE DETECTE");
+                }
+
+                setTimeout(snapshot, 5);
+/*                console.log("Nombre de points sombres : " + nbDarkPoints);
 
                 if (nbDarkPoints > nbPoints / 2)
                 {
@@ -109,11 +120,31 @@ function start(videoId)
                 else
                 {
                     console.log("CLAIR !");
-                }
+                }*/
 
                 //ctx.putImageData(image, 0, 0);
 
                 //canvasElement.style.display = 'block';
+
+                function CentreVideo()
+                {
+                    var stepX = 3 * (image.width / 8);
+                    var stepY = 3 * (image.height / 8);
+
+                    for (var i = 3 * (image.width / 2); i < 5 * (image.width / 2); i+=4)
+                    {
+                        for (var j = 3 * (image.height / 2) * image.width; j < 5 * (image.height / 2) * image.width; j+=480)
+                        {
+                            nbPoints++;
+                            var red = image.data[i+j];
+
+                            if (red > 192)
+                            {
+                                nbRedPoints++;
+                            }
+                        }
+                    }
+                }
 
                 function tracerPixel(x, y)
                 {
