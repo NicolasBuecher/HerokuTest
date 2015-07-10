@@ -138,7 +138,7 @@ function start(videoId)
 
                     for (var i = 3 * (image.width / 2); i < 5 * (image.width / 2); i+=4)
                     {
-                        for (var j = 3 * (image.height / 2) * image.width; j < 5 * (image.height / 2) * image.width; j+=480)
+                        for (var j = 3 * (image.height / 2) * image.width; j < 5 * (image.height / 2) * image.width; j+=4*image.width)
                         {
                             nbPoints++;
                             var red = image.data[i+j];
