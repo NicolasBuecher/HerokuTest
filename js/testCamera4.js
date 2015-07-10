@@ -73,22 +73,22 @@ function start(videoId)
 
         function onPlay()
         {
-            /* Définition dynamique de la largeur et de la hauteur visuelles du canvas */
-
-            canvasElement.style.width = videoElement.videoWidth.toString() + "px";
-            canvasElement.style.height = videoElement.videoHeight.toString() + "px";
-
-            /* Définition dynamique du nombre de pixels de la zone de dessin du canvas */
-
-            canvasElement.width = videoElement.videoWidth;
-            canvasElement.height = videoElement.videoHeight;
-
             videoElement.addEventListener('click', snapshot, false);
         }
 
         function snapshot() {
             if (stream) {
 
+                /* Définition dynamique de la largeur et de la hauteur visuelles du canvas */
+
+                canvasElement.style.width = videoElement.videoWidth.toString() + "px";
+                canvasElement.style.height = videoElement.videoHeight.toString() + "px";
+
+                /* Définition dynamique du nombre de pixels de la zone de dessin du canvas */
+
+                canvasElement.width = videoElement.videoWidth;
+                canvasElement.height = videoElement.videoHeight;
+                
                 ctx.drawImage(videoElement, 0, 0);
                 videoElement.style.display = 'none';
 
@@ -102,7 +102,7 @@ function start(videoId)
                 console.log("Nombre de points : " + nbPoints);
                 console.log("Nombre de points sombres : " + nbDarkPoints);
 
-                if (nbDarkPoints > nbPoints - nbPoints / 10)
+                if (nbDarkPoints > nbPoints / 2)
                 {
                     console.log("SOMBRE !");
                 }
@@ -126,7 +126,7 @@ function start(videoId)
 
                     nbPoints++;
 
-                    if (red <= 32 && green <= 32 && blue <= 32 )
+                    if (red <= 64 && green <= 64 && blue <= 64 )
                     {
                         nbDarkPoints++;
                     }
