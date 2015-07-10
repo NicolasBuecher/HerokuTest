@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f6b6d69-afe6-480d-a8ae-0fcf072f80e5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/testCamera4.js" afterPath="$PROJECT_DIR$/js/testCamera4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HerokuTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +78,7 @@
       <file leaf-file-name="testCamera4.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/testCamera4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18660288">
+            <state vertical-scroll-proportion="0.22966507">
               <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
               <folding />
             </state>
@@ -737,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/testCamera4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18660288">
+        <state vertical-scroll-proportion="0.22966507">
           <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
           <folding />
         </state>
