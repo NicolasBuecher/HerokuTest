@@ -141,8 +141,10 @@ function start(videoId)
                         {
                             nbPoints++;
                             var red = image.data[i+j];
+                            var green = image.data[i+j+1];
+                            var blue = image.data[i+j+2];
 
-                            if (red > 192)
+                            if (red > 192 && green < 64 && blue < 64)
                             {
                                 nbRedPoints++;
                             }
