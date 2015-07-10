@@ -144,6 +144,8 @@ function start(videoId)
                             var green = image.data[i+j+1];
                             var blue = image.data[i+j+2];
 
+                            console.log("R = " + red + " G = " + green + " B = " + blue)
+
                             if (red > 192 && green < 64 && blue < 64)
                             {
                                 nbRedPoints++;
