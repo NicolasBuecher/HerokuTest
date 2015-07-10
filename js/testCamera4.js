@@ -81,6 +81,7 @@ function start(videoId)
 
             console.log("width : " + canvasElement.width);
             console.log("height : " + canvasElement.height);
+            console.log("stringW : " + videoElement.videoWidth.toString());
 
             videoElement.addEventListener('click', snapshot, false);
         }
