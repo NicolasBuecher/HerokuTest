@@ -74,7 +74,7 @@ function start(videoId)
         function onPlay()
         {
             //videoElement.addEventListener('click', snapshot, false);
-            setTimeout(snapshot, 2);
+            setTimeout(snapshot, 2000);
         }
 
         function snapshot() {
@@ -110,7 +110,7 @@ function start(videoId)
                     console.log("ROUGE DETECTE");
                 }
 
-                setTimeout(snapshot, 5);
+                setTimeout(snapshot, 5000);
 /*                console.log("Nombre de points sombres : " + nbDarkPoints);
 
                 if (nbDarkPoints > nbPoints / 2)
