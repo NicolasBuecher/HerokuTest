@@ -109,6 +109,10 @@ function start(videoId)
                 {
                     console.log("ROUGE DETECTE");
                 }
+                else
+                {
+                    console.log("RAS");
+                }
 
                 setTimeout(snapshot, 5000);
 /*                console.log("Nombre de points sombres : " + nbDarkPoints);
