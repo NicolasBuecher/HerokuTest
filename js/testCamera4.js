@@ -73,8 +73,8 @@ function start(videoId)
 
         function onPlay()
         {
-            canvasElement.style.width = videoElement.videoWidth.toString();
-            canvasElement.style.height = videoElement.videoHeight.toString();
+            canvasElement.style.width = "640";
+            canvasElement.style.height = "480";
 
             canvasElement.width = videoElement.videoWidth;
             canvasElement.height = videoElement.videoHeight;
@@ -91,10 +91,8 @@ function start(videoId)
                 ctx.drawImage(videoElement, 0, 0);
                 canvasElement.style.display = 'block';
                 videoElement.style.display = 'none';
-
-
                 /*
-                var image = ctx.getImageData(0,0,videoElement.videoWidth, videoElement.videoHeight);
+                var image = ctx.getImageData(0,0, canvasElement.width, canvasElement.height);
 
                 console.log("videoWidth : " + videoElement.videoWidth);
                 console.log("videoHeight : " + videoElement.videoHeight);
