@@ -35,8 +35,10 @@ App.FRUSTUMCULLING      = true;
 App.PLAY                = false;//Disable animation mode
 App.ANIMATION           = false;
 App.CAMERAISFREE        = true;
+App.RAYCASTINGCULLING   = false;
 //App.FIRST               = true;
 
 App.nbIter              = 3;
 
 App.autoLoadData = false;
+App.autoWalk = false;

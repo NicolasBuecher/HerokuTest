@@ -78,6 +78,12 @@ function onKeyboardDown(event){
             document.getElementById('blocker').style.display = 'initial';
             App.controlsEnabled = false;
             break;
+        case 71: // g
+            if (App.currentDisplay === App.DisplayType.CARDBOARD)
+            {
+                App.autoWalk = App.autoWalk ? false : true;
+            }
+            break;
         default:
             break;
     }
@@ -95,7 +101,6 @@ function onWindowResize() {
     Camera.camera.updateProjectionMatrix();
 
     App.renderer.setSize( App.width, App.height );
-
     if ( App.currentDisplay == App.DisplayType.CARDBOARD )
     {
         Camera.effect.setSize( App.width, App.height );
