@@ -413,7 +413,7 @@ function render3() {
         showIntersectedInfo(App.intersection);
     }
 
-    Gui.stats.update();
+    //Gui.stats.update();
     showDebugInfo();
 
     //App.colorPickingRenderer.render(App.colorPickerSprite, Camera.camera);
