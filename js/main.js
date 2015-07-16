@@ -364,6 +364,8 @@ App.addScript(name2, script2, false);
 
 initFileReading();
 
+alert(navigator.userAgent);
+
 if (isMobile.any())
 {
     initCardboard();
