@@ -430,6 +430,7 @@ function start(videoId) {
 
                 if (nbRedPoints > nbPoints - nbRedPoints) {
                     console.log("ROUGE DETECTE");
+                    App.autoWalk = App.autoWalk ? false : true;
                 }
                 else {
                     console.log("RAS");
