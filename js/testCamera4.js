@@ -33,6 +33,7 @@ else
                 break;
             case 1:
                 alert("Il s'agit certainement de ta webcam, non ?");
+                start(videoSources[0]);
                 break;
             case 2:
                 alert("Au pif, ce doit être ta caméra externe !");

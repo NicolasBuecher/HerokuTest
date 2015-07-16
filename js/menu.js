@@ -441,5 +441,10 @@ function render3() {
 
 function go()
 {
-    Camera.camera.position.set(Camera.origin.x, Camera.origin.y, Camera.origin.z + 0,01);
+    var direction = Camera.camera.getWorldDirection().normalize();
+    Camera.camera.position.set(
+        Camera.camera.position.x + direction.x / 1000,
+        Camera.camera.position.y + direction.y / 1000,
+        Camera.camera.position.z + direction.z / 1000
+    );
 }
