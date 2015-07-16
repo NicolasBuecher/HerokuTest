@@ -425,8 +425,8 @@ function start(videoId) {
 
                 CentreVideo();
 
-                console.log("Nombre de points : " + nbPoints);
-                console.log("Nombre de points rouges : " + nbRedPoints);
+                //console.log("Nombre de points : " + nbPoints);
+                //console.log("Nombre de points rouges : " + nbRedPoints);
 
                 if (nbRedPoints > nbPoints - nbRedPoints) {
                     console.log("ROUGE DETECTE");
@@ -436,15 +436,15 @@ function start(videoId) {
                     console.log("RAS");
                 }
 
-                setTimeout(snapshot, 2000);
+                setTimeout(snapshot, 1000);
                 ctx.putImageData(image, 0, 0);
 
                 //canvasElement.style.display = 'block';
 
                 function CentreVideo() {
-                    console.log("R = " + (image.data[3 * (image.width / 2) + 3 * (image.height / 2) * image.width]));
-                    console.log("G = " + (image.data[3 * (image.width / 2) + 1 + 3 * (image.height / 2) * image.width]));
-                    console.log("B = " + (image.data[3 * (image.width / 2) + 2 + 3 * (image.height / 2) * image.width]));
+                    //console.log("R = " + (image.data[3 * (image.width / 2) + 3 * (image.height / 2) * image.width]));
+                    //console.log("G = " + (image.data[3 * (image.width / 2) + 1 + 3 * (image.height / 2) * image.width]));
+                    //console.log("B = " + (image.data[3 * (image.width / 2) + 2 + 3 * (image.height / 2) * image.width]));
 
                     for (var i = 3 * (image.width / 2); i < 5 * (image.width / 2); i += 4) {
                         for (var j = 3 * (image.height / 2) * image.width; j < 5 * (image.height / 2) * image.width; j += 4 * image.width) {
