@@ -436,7 +436,7 @@ function start(videoId) {
                     console.log("RAS");
                 }
 
-                setTimeout(snapshot, 1000);
+                setTimeout(snapshot, 2000);
                 ctx.putImageData(image, 0, 0);
 
                 //canvasElement.style.display = 'block';
