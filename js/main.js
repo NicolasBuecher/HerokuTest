@@ -364,8 +364,6 @@ App.addScript(name2, script2, false);
 
 initFileReading();
 
-alert(navigator.userAgent);
-
 if (isMobile.any())
 {
     initCardboard();
@@ -431,8 +429,8 @@ function start(videoId) {
                 //console.log("Nombre de points rouges : " + nbRedPoints);
 
                 if (nbRedPoints > nbPoints - nbRedPoints) {
-                    console.log("ROUGE DETECTE");
                     App.autoWalk = App.autoWalk ? false : true;
+                    App.autoWalk ? console.log("DEMARRE") : console.log("ARRETE");
                 }
                 else {
                     console.log("RAS");
