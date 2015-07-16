@@ -431,13 +431,14 @@ function start(videoId) {
                 if (nbRedPoints > nbPoints - nbRedPoints) {
                     App.autoWalk = App.autoWalk ? false : true;
                     App.autoWalk ? console.log("DEMARRE") : console.log("ARRETE");
+                    setTimeout(snapshot, 1000);
                 }
                 else {
                     console.log("RAS");
+                    setTimeout(snapshot, 250);
                 }
 
-                setTimeout(snapshot, 1000);
-                ctx.putImageData(image, 0, 0);
+                //ctx.putImageData(image, 0, 0);
 
                 //canvasElement.style.display = 'block';
 
