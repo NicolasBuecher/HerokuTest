@@ -311,6 +311,54 @@ function setStaticShaderMode(){
     App.scene.add(App.pointCloud);
 }
 
+var videoElement = document.getElementById('color-detection-video');
+var canvasElement = document.getElementById('color-detection-canvas');
+var ctx = canvasElement.getContext('2d');
+
+navigator.getUserMedia  = navigator.getUserMedia ||
+    navigator.webkitGetUserMedia ||
+    navigator.mozGetUserMedia ||
+    navigator.msGetUserMedia;
+
+if (typeof MediaStreamTrack === 'undefined')
+{
+    alert('This browser does not support MediaStreamTrack.\n\nTry Chrome Canary.');
+}
+else
+{
+    var videoSources = [];
+    var j = 0;
+
+    MediaStreamTrack.getSources(gotSources);
+
+    function gotSources(sourceInfos) {
+        for (var i = 0; i !== sourceInfos.length; ++i) {
+            var sourceInfo = sourceInfos[i];
+            if (sourceInfo.kind === 'video') {
+                videoSources[j] = sourceInfo.id;
+                j++;
+            }
+        }
+
+        switch (videoSources.length) {
+            case 0:
+                alert("Aucune caméra détectée");
+                break;
+            case 1:
+                alert("Il s'agit certainement de ta webcam, non ?");
+                start(videoSources[0]);
+                break;
+            case 2:
+                alert("Au pif, ce doit être ta caméra externe !");
+                start(videoSources[1]);
+                break;
+            default:
+                alert("Trop de choix, je ne sais que choisir !");
+                break;
+        }
+    }
+}
+
 App.addScript(name, script, true);
 App.addScript(name2, script2, false);
 
@@ -323,4 +371,103 @@ if (isMobile.any())
 else
 {
     initSimpleView();
+}
+
+function start(videoId) {
+    if (!!window.stream) {
+        videoElement.src = null;
+        window.stream.stop();
+    }
+
+    var constraints = {
+        video: {
+            optional: [{
+                sourceId: videoId
+            }]
+        }
+    };
+
+    navigator.getUserMedia(constraints, onSuccessCallback, onErrorCallback);
+
+    function onSuccessCallback(stream) {
+        window.stream = stream;
+        videoElement.src = window.URL.createObjectURL(stream);
+        videoElement.play();
+
+        videoElement.addEventListener('play', onPlay, false);
+
+        function onPlay() {
+            //videoElement.addEventListener('click', snapshot, false);
+            setTimeout(snapshot, 1000);
+        }
+
+        function snapshot() {
+            if (stream) {
+
+                /* Définition dynamique de la largeur et de la hauteur visuelles du canvas */
+
+                canvasElement.style.width = videoElement.videoWidth.toString() + "px";
+                canvasElement.style.height = videoElement.videoHeight.toString() + "px";
+
+                /* Définition dynamique du nombre de pixels de la zone de dessin du canvas */
+
+                canvasElement.width = videoElement.videoWidth;
+                canvasElement.height = videoElement.videoHeight;
+
+                ctx.drawImage(videoElement, 0, 0);
+                //videoElement.style.display = 'none';
+
+                var image = ctx.getImageData(0, 0, canvasElement.width, canvasElement.height);
+
+                var nbPoints = 0;
+                var nbDarkPoints = 0;
+                var nbRedPoints = 0;
+
+                CentreVideo();
+
+                console.log("Nombre de points : " + nbPoints);
+                console.log("Nombre de points rouges : " + nbRedPoints);
+
+                if (nbRedPoints > nbPoints - nbRedPoints) {
+                    console.log("ROUGE DETECTE");
+                }
+                else {
+                    console.log("RAS");
+                }
+
+                setTimeout(snapshot, 1000);
+                ctx.putImageData(image, 0, 0);
+
+                //canvasElement.style.display = 'block';
+
+                function CentreVideo() {
+                    console.log("R = " + (image.data[3 * (image.width / 2) + 3 * (image.height / 2) * image.width]));
+                    console.log("G = " + (image.data[3 * (image.width / 2) + 1 + 3 * (image.height / 2) * image.width]));
+                    console.log("B = " + (image.data[3 * (image.width / 2) + 2 + 3 * (image.height / 2) * image.width]));
+
+                    for (var i = 3 * (image.width / 2); i < 5 * (image.width / 2); i += 4) {
+                        for (var j = 3 * (image.height / 2) * image.width; j < 5 * (image.height / 2) * image.width; j += 4 * image.width) {
+                            nbPoints++;
+                            var red = image.data[i + j];
+                            var green = image.data[i + j + 1];
+                            var blue = image.data[i + j + 2];
+
+                            if (red > 192 && green < 128 && blue < 128) {
+                                nbRedPoints++;
+                            }
+
+                            image.data[i + j] = 255;
+                            image.data[i + j + 1] = 0;
+                            image.data[i + j + 2] = 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    function onErrorCallback(error) {
+        console.log('navigator.getUserMedia error: ', error);
+        alert("ERROR");
+    }
 }
