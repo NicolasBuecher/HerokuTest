@@ -443,8 +443,8 @@ function go()
 {
     var direction = Camera.camera.getWorldDirection().normalize();
     Camera.camera.position.set(
-        Camera.camera.position.x + direction.x / 1000,
-        Camera.camera.position.y + direction.y / 1000,
-        Camera.camera.position.z + direction.z / 1000
+        Camera.camera.position.x + direction.x / 5000,
+        Camera.camera.position.y + direction.y / 5000,
+        Camera.camera.position.z + direction.z / 5000
     );
 }
