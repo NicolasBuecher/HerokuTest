@@ -203,5 +203,5 @@ Snapshot.prototype.setOffset = function(offset)
     this.html.style.left = offset;
 }
 
-var snapshotManager = new SnapshotManager();
-snapshotManager.addSnapEventOnHTML('click', 'addSnap');
+//var snapshotManager = new SnapshotManager();
+//snapshotManager.addSnapEventOnHTML('click', 'addSnap');

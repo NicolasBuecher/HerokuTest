@@ -57,7 +57,7 @@
 	</div>
 
 </div>
-
+<!--
 <ul id="timeline">
 
 	<div id="cursor" class="draggable">
@@ -69,16 +69,16 @@
 		</div>
 	</div>
 
-</ul>
-
+</ul>-->
+<!--
 <button id="addSnap" style="position: absolute; top: 50%; width: 10%; left: 45%">Add</button>
+-->
 
-
-<div id="loader">
+<div id="loader" style="display: none;">
 	<input type="file" accept="*" id="files" name="file" multiple />
 </div>
 <progress id="fileLoadingProgress" value="0" max="100"></progress>
-<div id="info_wrapper">
+<div id="info_wrapper" style="display: none;">
 	<div id="info_intersected">
 
 	</div>
@@ -253,17 +253,17 @@
 </div> -->
 
 <!-- TOOLS -->
-<div id="tools">
+<div id="tools" style="display: none;">
 	<img src="resources/icons/fps_controls.png" onclick="useFPSControls()" title="Fly Camera"/>
 	<img src="resources/icons/orbit_controls.png" onclick="useOrbitControls()" title="Orbit Controls"/>
 	<img src="resources/icons/focus.png" onclick="controls.reset()" title="focus on pointcloud"/>
 </div>
 
-<div id="debugInfo">
+<div id="debugInfo" style="display: none;">
 
 </div>
 
-<div id="colorPickingTexture"></div>
+<div id="colorPickingTexture" style="display: none;"></div>
 
 </body>
 
