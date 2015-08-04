@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Test Timeline</title>
+
+    <style>
+
+        @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            font-family: "Noto Sans", sans-serif;
+            color: #eee9dc;
+            background: #48b379;
+        }
+
+        #timeline {
+            position: absolute;
+            left: 40%;
+            width: 20%;
+            list-style: none;
+            bottom: 5%;
+            border-top: 8px solid #eee9dc;
+            display: table;
+            border-spacing: 0 0;
+        }
+
+        #cursor {
+            position: absolute;
+            margin: 0 auto;
+            top: -22px;
+            left: -10px;
+            width: 20px;
+            height: 36px;
+            display: block;
+        }
+
+        #cursor-rect {
+            margin: 0 auto;
+            left: 7px;
+            width: 6px;
+            height: 36px;
+            background: #eee9dc;
+            display: block;
+            position: absolute;
+            z-index: 0;
+        }
+        #cursor-circle {
+            margin: 0 auto;
+            top: 8px;
+            width: 10px;
+            height: 10px;
+            background: red;
+            border: 5px solid #eee9dc;
+            border-radius: 50%;
+            display: block;
+            position: absolute;
+            z-index: 5;
+        }
+
+        #cursor:hover {
+            cursor: all-scroll;
+        }
+        .snapshot {
+            display: table-cell;
+        }
+
+        .label-snapshot {
+
+        }
+
+        .circle {
+            margin: 0 auto;
+            top: -14px;
+            left: -10px;
+            width: 10px;
+            height: 10px;
+            background: #48b379;
+            border: 5px solid #eee9dc;
+            border-radius: 50%;
+            display: block;
+            position: absolute;
+        }
+
+        .circle:hover {
+            background-color: lawngreen;
+        }
+    </style>
+</head>
+<body>
+    <ul id="timeline">
+        <div id="cursor">
+            <div id="cursor-rect"></div>
+            <div id="cursor-circle"></div>
+        </div>
+    </ul>
+<button id="addSnap" style="position: absolute; top: 50%; width: 10%; left: 45%">Add</button>
+</body>
+<script>
+    var nbSnapshots = 0;
+
+    function replaceSnapshots()
+    {
+        var step = 100 / (nbSnapshots - 1);
+        for (var i = 0; i < nbSnapshots; i++)
+        {
+            document.getElementById('snap-'+i).style.left = i*step + '%';
+        }
+    }
+
+    function removeSnapshot(e)
+    {
+        /* VERSION 1 */
+        var snapshot = e.target.parentNode;
+        var id = parseInt(snapshot.id.substr(5));
+        snapshot.parentNode.removeChild(snapshot);
+
+        for ( var i = id+1; i < nbSnapshots; i++ )
+        {
+            document.getElementById('snap-'+i).id = 'snap-'+(i-1);
+        }
+
+        nbSnapshots--;
+
+        replaceSnapshots();
+
+        // Avec cette solution, les données sont toujours bindées avec les bons cercles
+
+        /* VERSION 2
+        var snapshot = document.getElementById('snap-'+(--nbSnapshots));
+        snapshot.parentNode.removeChild(snapshot);
+
+        var step = 100 / (nbSnapshots - 1);
+        var i = 2;
+        for (i = 2; i < nbSnapshots; i++)
+        {
+            document.getElementById('snap-'+i).style.left = (i-1)*step + '%';
+        }
+
+        // Penser à re-binder toutes les données avec cette solution
+
+        */
+    }
+
+    function addSnapshot()
+    {
+        var snapshot = document.createElement('li');
+        snapshot.className = 'snapshot';
+        snapshot.id = 'snap-'+(nbSnapshots++);
+        snapshot.style.position = 'absolute';
+
+        var label = document.createElement('span');
+        label.className = 'label-snapshot';
+        snapshot.appendChild(label);
+
+        var circle = document.createElement('span');
+        circle.className = 'circle';
+        snapshot.appendChild(circle);
+
+        var timeline = document.getElementById('timeline');
+        timeline.appendChild(snapshot);
+
+        replaceSnapshots();
+
+        //snapshot.addEventListener('click', removeSnapshot, false);
+        snapshot.addEventListener('click', moveCursorOnSnapshot, false);
+
+    }
+
+    document.getElementById('addSnap').addEventListener('click', addSnapshot, false);
+
+    var cursorIsDragged = false;
+
+    var cursor = document.getElementById('cursor');
+    cursor.addEventListener('mousedown', onCursorDrag, false);
+
+    function onCursorDrag(e)
+    {
+        cursorIsDragged = true;
+
+        // Stockage de l'abscisse de la souris
+
+        var mouseX = e.clientX + (document.documentElement.scrollLeft + document.body.scrollLeft);
+
+        // Calcul de l'abscisse du curseur
+
+        var cursorX = 0;
+        var element = cursor;
+
+        do
+        {
+            cursorX += element.offsetLeft;
+            element = element.offsetParent;
+        } while ( element && element.style.position != 'absolute' );
+
+        // Calcul du décalage constaté
+
+        var dX = mouseX - cursorX;
+
+        var cursorOffset = cursor.offsetLeft;
+
+        document.addEventListener('mouseup', onCursorRelease, false);
+        document.addEventListener('mousemove', onCursorMove, false);
+
+        function onCursorRelease(e)
+        {
+            cursorIsDragged = false;
+            document.removeEventListener('mouseup', onCursorRelease);
+            document.removeEventListener('mousemove', onCursorMove);
+        }
+
+        function onCursorMove(e)
+        {
+            if (cursorIsDragged)
+            {
+                mouseX = e.clientX + (document.documentElement.scrollLeft + document.body.scrollLeft);
+
+                // Calcul de la future abscisse du curseur
+
+                mouseX -= dX;
+
+                // Calcul de l'offset à appliquer
+
+                cursorOffset += mouseX-cursorX;
+
+                if (cursorOffset > -11 && cursorOffset < document.getElementById('timeline').offsetWidth -9)
+                {
+                    // Déplacement du curseur
+
+                    cursor.style.left = cursorOffset + 'px';
+
+                    // Sauvegarde de la nouvelle position du curseur
+
+                    cursorX = mouseX;
+                }
+
+            }
+        }
+
+    }
+
+    function moveCursorOnSnapshot(e)
+    {
+        var snapshot = e.target.parentNode;
+        cursor.style.left = (snapshot.offsetLeft - 10) + 'px';
+    }
+
+</script>
+</html>

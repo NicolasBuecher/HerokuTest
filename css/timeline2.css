@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Georgia;
+    background-color: #48b379;
+}
+
+#timeline {
+    display:table;
+    list-style: none;
+    position:absolute;
+    width: 20%;
+    left: 40%;
+    height: 8px;
+    top: 90%;
+    background-color: #fff;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#cursor {
+    display: block;
+    position: absolute;
+    width: 20px;
+    left: -10px;
+    height: 20px;
+    top: -6px;
+    background-color: rgba(255,255,255,0);
+    cursor: move;
+    z-index: 1;
+}
+
+#cursor-head {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.cursor-hair {
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+#cursor-hair-top-left {
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    top: -10px;
+    left: -10px;
+}
+
+#cursor-hair-top-right {
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    top: -10px;
+    right: -10px;
+}
+
+#cursor-hair-bottom-left {
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    bottom: -10px;
+    left: -10px;
+}
+
+#cursor-hair-bottom-right {
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    bottom: -10px;
+    right: -10px;
+}
+
+.snapshot {
+    display: table-cell;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.breakpoint {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: -10px;
+    top: -6px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background-color: green;
+}

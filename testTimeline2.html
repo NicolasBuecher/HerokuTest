@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+
+    <title>Drag & Drop</title>
+
+    <style type="text/css">
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family:Georgia;
+            background-color: #48b379;
+        }
+
+        #timeline {
+            display:table;
+            list-style: none;
+            position:absolute;
+            width: 20%;
+            left: 40%;
+            height: 8px;
+            top: 90%;
+            background-color: #fff;
+            border-radius: 4px 4px 4px 4px;
+        }
+
+        #cursor {
+            display: block;
+            position: absolute;
+            width: 20px;
+            left: -10px;
+            height: 20px;
+            top: -6px;
+            background-color: rgba(255,255,255,0);
+            cursor: move;
+            z-index: 1;
+        }
+
+        #cursor-head {
+            display: block;
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border: 5px solid #fff;
+            border-radius: 50%;
+            background-color: red;
+        }
+
+        .cursor-hair {
+            position: absolute;
+            width: 10px;
+            height: 5px;
+            border-radius: 50%;
+        }
+
+        #cursor-hair-top-left {
+            border-top: 3px solid #fff;
+            border-left: 3px solid #fff;
+            top: -10px;
+            left: -10px;
+        }
+
+        #cursor-hair-top-right {
+            border-top: 3px solid #fff;
+            border-right: 3px solid #fff;
+            top: -10px;
+            right: -10px;
+        }
+
+        #cursor-hair-bottom-left {
+            border-bottom: 3px solid #fff;
+            border-left: 3px solid #fff;
+            bottom: -10px;
+            left: -10px;
+        }
+
+        #cursor-hair-bottom-right {
+            border-bottom: 3px solid #fff;
+            border-right: 3px solid #fff;
+            bottom: -10px;
+            right: -10px;
+        }
+
+        .snapshot {
+            display: table-cell;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .breakpoint {
+            display: block;
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            left: -10px;
+            top: -6px;
+            border: 5px solid #fff;
+            border-radius: 50%;
+            background-color: green;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <ul id="timeline">
+
+        <div id="cursor" class="draggable">
+            <div id="cursor-head">
+                <div id="cursor-hair-top-left" class="cursor-hair"></div>
+                <div id="cursor-hair-top-right" class="cursor-hair"></div>
+                <div id="cursor-hair-bottom-left" class="cursor-hair"></div>
+                <div id="cursor-hair-bottom-right" class="cursor-hair"></div>
+            </div>
+        </div>
+
+    </ul>
+
+    <button id="addSnap" style="position: absolute; top: 50%; width: 10%; left: 45%">Add</button>
+
+</body>
+
+<script type="text/javascript" src="js/timeline.js"></script>
+
+</html>
